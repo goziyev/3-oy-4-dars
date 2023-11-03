@@ -314,3 +314,44 @@ margin-right: auto;
     margin-left: auto;
 }
 /* the cards part over */
+
+.blocks{
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    display: flex;
+    margin-top: 162px;
+    padding-top: 17px;
+    padding-bottom: 27px;
+    justify-content: space-between;
+}
+.blocks .block{
+    padding-left: 51px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    padding-right: 67px;
+    padding-bottom: 40px;
+    border-right: 1px solid #C0C9D7;
+}
+.blocks .block p{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+.blocks .block p:first-child{
+    width: 88px;
+}
+
+.blocks .block p:nth-child(3){
+    width: 120px;
+}
+.blocks .block p:last-child{
+    width: 138px;
+}
+.blocks .block:nth-child(2) p{
+    width: 162px;
+}
